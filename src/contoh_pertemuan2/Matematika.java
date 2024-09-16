@@ -1,20 +1,19 @@
-package one;
+package contoh_pertemuan2;
 
 public class Matematika  {
-
-    void pertambahan(int a, int b){
+    public void pertambahan(int a, int b){
         int r = a + b;
         System.out.println("pertambahan :" + a + " + " + b + " = " + r);
     }
-    void  pengurangan(int a, int b){
+    public void  pengurangan(int a, int b){
         int r = a - b;
         System.out.println("pengurangan :" + a + " - " + b + " = " + r);
     }
-    void perkalian (int a, int b){
+    public void perkalian (int a, int b){
         int r = a * b;
         System.out.println("pengurangan :" + a + " * " + b + " = " + r);
     }
-    void pembagian (int a, int b){
+    public void pembagian (int a, int b){
         int r = a / b;
         System.out.println("pembagian :" + a + " / " + b + " = " + r);
     }
